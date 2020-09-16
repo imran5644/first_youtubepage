@@ -10,8 +10,6 @@ header{
 nav {
     margin-left: 25px;
     margin-top:-10px;
-    display: flex;
-    
 }
 .navbar-logo{
     margin-top:26px; 
@@ -28,6 +26,16 @@ nav {
     margin-left: 55px;
 }
 
+
+nav, aside, #profile-record, #review-info, .column, .same-line{
+    display: flex;
+}
+
+
+.youtube-logo{
+    height: 60px;
+    width:60px;
+}
 .left-alignment{
 margin-top: 7px;
 }
@@ -74,9 +82,7 @@ section {
     margin-left: 95px;
     margin-top:55px;
 }
-#profile-record{
-    display: flex;
-}
+
 #video-title{
     margin-top: 15px;
 }
@@ -96,18 +102,15 @@ section {
     margin-top: 27px;
     margin-left: 25px;
 }
-#review-info{
-    display: flex;
-}
+
 aside{
     margin-left: 30px;
-    display: flex;
 }
 
 .fix-top{
-    height: 100px;
-    width: 100px;
     margin-top: -15px;
+    height:100px;
+    width:"100px";
 }
 
 aside .song-title{
@@ -118,12 +121,9 @@ aside .song-title{
 }
 
 aside .column{
-    display: flex;
     flex-direction: column;
 }
- aside .same-line{
-     display: flex;
- }
+ 
  
  .video-adjust{
     width: 700; 
