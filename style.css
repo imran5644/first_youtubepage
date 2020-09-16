@@ -105,6 +105,8 @@ aside{
 }
 
 .fix-top{
+    height: 100px;
+    width: 100px;
     margin-top: -15px;
 }
 
@@ -123,3 +125,15 @@ aside .column{
      display: flex;
  }
  
+ .video-adjust{
+    width: 700; 
+    height: 400;
+ }
+
+ .icon-size{
+    font-size: 20px;
+ }
+
+ .user-icon{
+    font-size: 24px;
+ }
