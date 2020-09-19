@@ -83,22 +83,20 @@ section {
     margin-top:55px;
 }
 
-#video-title{
-    margin-top: 15px;
-}
-#like{
+
+.like{
     margin-top: 15px;
     margin-left: 25px;
 }
-#dislike{
+.dislike{
     margin-top: 15px;
     margin-left: 15px;
 }
-#share{
+.share{
     margin-top: 27px;
     margin-left: 25px;
 }
-#subscribe{
+.subscribe{
     margin-top: 27px;
     margin-left: 25px;
 }
@@ -136,4 +134,17 @@ aside .column{
 
  .user-icon{
     font-size: 24px;
+ }
+
+ .hashtags{
+     font-size: 14px;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top:15px;
+     color:rgb(72, 72, 228);
+ }
+
+ .video-title {
+     margin-top: -15px;
+     font-weight: 700;
+     font-family: sans-serif;
  }
